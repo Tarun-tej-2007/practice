@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif ;
+    box-sizing: border-box;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    align-items: center;
+    padding: 10px 2%;
+    position: static;
+}
+.nav-middle{
+     size: 10px;
+}
+.logo{
+    border-radius: 90%;
+    margin: 20px solid;
+    width: 50px;
+}
+.banner{
+    text-align: right;
+}
+#search{
+    display: flex;
+}
+.search{
+    height: 20px;
+}
+.home{
+    height: 45px;
+}
+.explore{
+    height: 45px;
+}
+.subscriprion{
+    height: 45px;
+}
+.library{
+    height: 45px;
+}
+.history{
+    height: 45px;
+}
+.cast{
+    height: 45px;
+}
+.playlist{
+    height: 45px;
+}
+.messages{
+    height: 45px;
+}
+.banner img{
+    width: 100%;
+}
+main{
+    display: flex;
+    width: 100%;
+
+}
+.vedios{
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.vedios>div{
+    border: 1px solid;
+}
+
+.thumbnail{
+    height: 200px;
+    width: 100%;
+}
+
+aside{
+    width: 15%;
+    
+}
+section{
+    width: 85%;
+}
+form{
+    height: 0px;
+    
+}
+#channel{
+    width: 40px;
+    border-radius: 50px;
+}
+
+
+
+
